@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="130px">
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="67.0dp"
+		android:layout_height="70.5dp"
+		android:id="@+id/imgKind" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="Trophy Name"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="27.0dp"
+			android:id="@+id/trophyName"
+			android:layout_marginLeft="5.0dp"
+			android:layout_marginTop="-5.0dp"  />
+		<TextView
+			android:text="Trophy Description"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="29.0dp"
+			android:id="@+id/trophyDescription"
+			android:layout_marginLeft="5.0dp" />
+		<TextView
+			android:text="Trophy Status"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="28.5dp"
+			android:layout_marginLeft="5.0dp"
+			android:layout_marginTop="-7.0dp"
+			android:id="@+id/status" />
+	</LinearLayout>
+</LinearLayout>

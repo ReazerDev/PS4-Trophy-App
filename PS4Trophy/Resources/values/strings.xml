@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PS4 Trophy</string>
+    <string name="action_disable_ads">Disable Ads</string>
+    <string name="action_info">Info</string>
+    <string name="back">Back</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="report_duplicate">Report Duplicate</string>
+    <string name="report_bug">Report Bug</string>
+    <string name="refresh">Refresh</string>
+</resources>
