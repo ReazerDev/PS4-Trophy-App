@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -16,7 +17,7 @@ namespace PS4Trophy
     {
         public List<Game> finalFiles;
         private Context mcontext;
-        string pathToFolder = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath + "/PS4 Trophy/Pictures";
+        string pathToFolder = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath + "/PS4 Trophy/Games/";
 
         public GameListAdapter(Context context, List<Game> files)
         {
@@ -53,8 +54,22 @@ namespace PS4Trophy
             TextView txtCount = row.FindViewById<TextView>(Resource.Id.trophyCountTest);
             txtCount.Text = finalFiles[position].trophyCountTest;
 
-            ImageView img = row.FindViewById<ImageView>(Resource.Id.imageView1);
-            img.SetImageResource(Resource.Drawable.logo);
+            ImageView img = row.FindViewById<ImageView>(Resource.Id.gameImage);
+
+            string pathToPicture = pathToFolder + finalFiles[position].gameName + "/picture";
+
+            if (File.Exists(pathToPicture + ".png"))
+            {
+                img.SetImageURI(Android.Net.Uri.Parse(pathToPicture + ".png"));
+            }
+            else if(File.Exists(pathToPicture + ".jpg"))
+            {
+                img.SetImageURI(Android.Net.Uri.Parse(pathToPicture + ".jpg"));
+            }
+            else
+            {
+                img.SetImageResource(Resource.Drawable.logo);
+            }
             return row;
         }
     }

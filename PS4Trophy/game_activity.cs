@@ -30,7 +30,6 @@ namespace PS4Trophy
         string trophyGuide = null;
 
         XML parser;
-        XML parser2;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -66,6 +65,7 @@ namespace PS4Trophy
             string name = null;
             string description = null;
             string xstatus = null;
+            string xkind = null;
             trophyListView = FindViewById<ListView>(Resource.Id.trophyListView);
             trophyList = new List<Trophy>();
             trophyList.Clear();
@@ -101,7 +101,8 @@ namespace PS4Trophy
                     name = parser.read(file.FullName, "name");
                     description = parser.read(file.FullName, "description");
                     xstatus = parser.read(file.FullName, "status");
-                    trophyList.Add(new Trophy() { trophyName = name, trophyDescription = description, status = xstatus });
+                    xkind = parser.read(file.FullName, "kind");
+                    trophyList.Add(new Trophy() { trophyName = name, trophyDescription = description, status = xstatus, kind = xkind });
                 }
                 catch
                 {

@@ -24,6 +24,7 @@ namespace PS4Trophy
         List<Game> gamesList;
         ListView gameListView;
         GameListAdapter adapter;
+        ImageView img;
         public FloatingActionButton addGameBtn;
 
         const int permission_Request = 101;
@@ -77,7 +78,7 @@ namespace PS4Trophy
 
             foreach (string directory in gameNames)
             { 
-                    gamesList.Add(new Game() { gameName = directory.Replace(pathToFolder + "/Games/", ""), trophyCountTest = "Trophies: " + (Directory.GetFiles(directory).Length - 1).ToString() });
+                    gamesList.Add(new Game() { gameName = directory.Replace(pathToFolder + "/Games/", ""), trophyCountTest = "Trophies: " + (Directory.GetFiles(directory).Length - 2).ToString() });
             }
 
 
@@ -174,7 +175,6 @@ namespace PS4Trophy
             if (id == Resource.Id.refresh)
             {
                 getGame();
-                Toast.MakeText(this, "Refreshing", ToastLength.Short).Show();
             }
 
             return base.OnOptionsItemSelected(item);

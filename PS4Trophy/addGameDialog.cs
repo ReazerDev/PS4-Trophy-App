@@ -66,6 +66,7 @@ namespace PS4Trophy
             parser.save();
             
 
+
             Dismiss();
         }
     }

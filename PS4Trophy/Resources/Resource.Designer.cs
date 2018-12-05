@@ -2230,50 +2230,50 @@ namespace PS4Trophy
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006f
-			public const int avd_hide_password_1 = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public const int avd_hide_password_2 = 2130837616;
-			
 			// aapt resource value: 0x7f020071
-			public const int avd_hide_password_3 = 2130837617;
+			public const int avd_hide_password_1 = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int avd_hide_password_2 = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int avd_hide_password_3 = 2130837619;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020072
-			public const int avd_show_password_1 = 2130837618;
-			
-			// aapt resource value: 0x7f020073
-			public const int avd_show_password_2 = 2130837619;
-			
 			// aapt resource value: 0x7f020074
-			public const int avd_show_password_3 = 2130837620;
+			public const int avd_show_password_1 = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int avd_show_password_2 = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int avd_show_password_3 = 2130837622;
 			
 			// aapt resource value: 0x7f020055
-			public const int back = 2130837589;
+			public const int bronze = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int bronze = 2130837590;
+			public const int design_bottom_navigation_item_background = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_bottom_navigation_item_background = 2130837591;
+			public const int design_fab_background = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_fab_background = 2130837592;
+			public const int design_ic_visibility = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_ic_visibility = 2130837593;
+			public const int design_ic_visibility_off = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_ic_visibility_off = 2130837594;
+			public const int design_password_eye = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_password_eye = 2130837595;
+			public const int design_snackbar_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_snackbar_background = 2130837596;
+			public const int gold = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
 			public const int ic_plus = 2130837597;
@@ -2308,11 +2308,11 @@ namespace PS4Trophy
 			// aapt resource value: 0x7f020067
 			public const int notification_icon_background = 2130837607;
 			
-			// aapt resource value: 0x7f02006d
-			public const int notification_template_icon_bg = 2130837613;
+			// aapt resource value: 0x7f02006f
+			public const int notification_template_icon_bg = 2130837615;
 			
-			// aapt resource value: 0x7f02006e
-			public const int notification_template_icon_low_bg = 2130837614;
+			// aapt resource value: 0x7f020070
+			public const int notification_template_icon_low_bg = 2130837616;
 			
 			// aapt resource value: 0x7f020068
 			public const int notification_tile_bg = 2130837608;
@@ -2321,13 +2321,19 @@ namespace PS4Trophy
 			public const int notify_panel_notification_icon_bg = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int refresh = 2130837610;
+			public const int platinum = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int tooltip_frame_dark = 2130837611;
+			public const int refresh = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int tooltip_frame_light = 2130837612;
+			public const int silver = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int tooltip_frame_dark = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int tooltip_frame_light = 2130837614;
 			
 			static Drawable()
 			{
@@ -2570,6 +2576,9 @@ namespace PS4Trophy
 			// aapt resource value: 0x7f080058
 			public const int forever = 2131230808;
 			
+			// aapt resource value: 0x7f0800a6
+			public const int gameImage = 2131230886;
+			
 			// aapt resource value: 0x7f08008e
 			public const int gameListView = 2131230862;
 			
@@ -2599,9 +2608,6 @@ namespace PS4Trophy
 			
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
-			
-			// aapt resource value: 0x7f0800a6
-			public const int imageView1 = 2131230886;
 			
 			// aapt resource value: 0x7f0800bf
 			public const int imgKind = 2131230911;

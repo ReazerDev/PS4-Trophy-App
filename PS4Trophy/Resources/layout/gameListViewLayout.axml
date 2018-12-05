@@ -10,7 +10,7 @@
 		android:src="@android:drawable/ic_menu_gallery"
 		android:layout_width="57.0dp"
 		android:layout_height="57.5dp"
-		android:id="@+id/imageView1"
+		android:id="@+id/gameImage"
 		android:layout_marginLeft="5px"/>
 	<LinearLayout
 		android:orientation="vertical"

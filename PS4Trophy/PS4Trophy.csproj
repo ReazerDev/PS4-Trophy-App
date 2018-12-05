@@ -121,9 +121,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\back.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\menu\game_menu.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -152,16 +149,16 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bronze.jpg" />
+    <AndroidResource Include="Resources\drawable\bronze.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\gold.jpg" />
+    <AndroidResource Include="Resources\drawable\gold.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\platinum.jpg" />
+    <AndroidResource Include="Resources\drawable\platinum.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\silver.jpg" />
+    <AndroidResource Include="Resources\drawable\silver.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
